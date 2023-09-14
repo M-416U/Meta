@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  text-decoration: none;
+
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  color: white;
+  background: url('/images/background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bot-vid {
+  position: fixed;
+  bottom: 0;
+  rotate: 78deg;
+  left: -120px;
+  mix-blend-mode: screen;
+  z-index: -100;
+}
+
+.app {
+  width: 90%;
+  margin: auto;
+}
